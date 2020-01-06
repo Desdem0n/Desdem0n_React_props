@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.ima {
+  width: 100px;
+  cursor: pointer;
+  filter: blur(5px);
+}
+
+.ima:hover {
+  margin: 30px;
+  transform: scale(1.5);
+  transition-duration: 1s;
+  filter: blur(0px);
+}
+
+.ima:active {
+  margin: 100px;
+  filter: blur(0px);
+  transform: scale(2.5);
+}
